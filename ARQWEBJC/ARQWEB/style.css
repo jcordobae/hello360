@@ -1,0 +1,78 @@
+´{
+	margin: 0;
+	padding: 0;
+}
+header
+{ 
+	background-image: url("elefanteplant.png");
+height: 100vh;
+background-size: cover;
+background-position: center
+}
+div.h1 {
+  font-color: whitesmoke;
+  text-align: center;
+  height: auto;
+  width: auto;
+  background-color: black;
+  font-family: verdana;
+  font-size: 30px;
+  text-align: center;
+	
+}
+div.h2 {
+  font-color: whitesmoke;
+  text-align: center;
+  height: auto;
+  width: auto;
+  background-color: black;
+  font-family: verdana;
+  font-size: 30px;
+  text-align: right;
+}
+
+div.gallery {
+  margin-right: 5px;
+  margin-left: 5px;
+  border: 3px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+.main-nav
+{
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+	
+}
+.main-nav li
+{display: inline-block;}
+
+.main-nav li a
+{color: white;
+text-decoration: none;
+padding: 5px 20px;
+	font-family: "Roboto", "sans-serif";
+	font-size: 15px;
+		
+}
+.main-nav li.active a
+{border: 1px solid white;
+}
+.main-nav li a:hover
+{border: 1px solid white;
+}
